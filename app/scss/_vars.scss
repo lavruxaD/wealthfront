@@ -1,0 +1,20 @@
+$def: #230B59;
+$white: #fff;
+$gray: #B7B7C0;
+$bg: #4840bb;
+
+%roboto-400 {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+}
+%roboto-700 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-weight: 700;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers	});
+}

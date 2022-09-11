@@ -1,0 +1,116 @@
+@media (max-width: 1300px) {
+  .investing__inner {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+  .investing__top,
+  .investing__bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .investing__top-content {
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .investing__bottom-img,
+  .investing__top-img,
+  .over__top-img {
+    width: 100%;
+  }
+  .testimonial__box,
+  .over__bottom-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 1200px) {
+  .relaxing__inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .relaxing__content-text {
+    margin-bottom: 25px;
+  }
+  .relaxing__img {
+    width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  .make__top-box__title,
+  .make__top-box__text {
+    max-width: 100%;
+  }
+  .make__top {
+    display: flex;
+    flex-direction: column;
+  }
+  .make__top-images {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 900px) {
+  .make__bottom-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .make__bottom-item {
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 850px) {
+  .nav {
+    display: none;
+  }
+  .burger__menu {
+    display: block;
+  }
+  .investing__top-content__title,
+  .investing__bottom-content__title,
+  .over__content-text {
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0px;
+  }
+  .relaxing__content {
+    margin-left: 0;
+  }
+  .footer__top {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__top-box {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 550px) {
+  .header__box {
+    display: none;
+  }
+  .burger__menu-box__btn {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .investing__top-content__box,
+  .investing__bottom-content__box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 450px) {
+  .make__top-box__title,
+  .relaxing__content-title {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.9px;
+    margin-bottom: 20px;
+  }
+  .over__bottom-box__img {
+    width: 100%;
+  }
+}
